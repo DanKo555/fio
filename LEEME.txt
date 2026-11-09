@@ -1,0 +1,43 @@
+CÓMO ESTÁ ARMADA (Y QUÉ PUEDES CAMBIAR)
+════════════════════════════════════════════
+
+1. LAS FOTOS  ✓ ya están puestas
+   portada.jpg        la foto grande de arriba
+   foto01.jpg ...     las del muro
+
+   Se revuelven solas cada vez que se abre la página.
+   Si quieres cambiar la portada, reemplaza portada.jpg.
+   Si quieres agregar o quitar fotos del muro, avísame:
+   la lista está en index.html (busca "const FOTOS").
+
+
+2. LA CANCIÓN  ✓ ya está puesta
+   cancion.mp3  ("Si algún día te pierdo")
+
+   Arranca cuando ella toca "toca para abrir".
+   Si algún día la cambias, deja el mismo nombre: cancion.mp3.
+
+
+3. LOS TEXTOS QUE FALTAN
+   Abre index.html con el Bloc de notas y busca:
+
+        "tu nombre"      ← LA FIRMA DE LA CARTA. Sigue diciendo
+                           "tu nombre": cámbialo antes de mandarla.
+
+        "LA CARTA"       el resto del texto
+        "Chini" / "Fio"  el nombre en toda la página
+        "7 de noviembre" la fecha (aparece dos veces)
+
+
+4. PARA MANDÁRSELA
+   Comprime la carpeta completa en un .zip y mándala así.
+   O súbela a netlify.com/drop y te da un enlace para el teléfono.
+
+
+5. LOS CORAZONES
+   Van aparte del ajuste de animaciones de Windows (en esta compu
+   está desactivado y si no, no se verían). Para quitarlos, busca:
+
+        const CORAZONES = true;
+
+   y pon false.
